@@ -1,22 +1,46 @@
-*{
+* {
     margin: 0;
 }
 
 /* Header styles */
 
-nav{
+nav {
     display: flex;
     margin: 50px 200px;
     justify-content: space-between;
 }
+
 nav ul {
-       display: flex;
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
 }
-li{
+
+li {
     list-style: none;
     padding-left: 15px;
 }
-.primary-color{
-    color: #FD6E0A;;
 
+.primary-color {
+    color: #FD6E0A;
+    ;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+.btn{
+    width: 100px;
+height: 50px;
+left: 200px;
+top: 50px;
+
+background: #FD6E0A;
+border-radius: 5px;
+color: blanchedalmond;
 }
