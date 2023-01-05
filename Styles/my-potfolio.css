@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+/* Header styles */
+
+nav{
+    display: flex;
+    margin: 50px 200px;
+    justify-content: space-between;
+}
+nav ul {
+       display: flex;
+}
+li{
+    list-style: none;
+    padding-left: 15px;
+}
+.primary-color{
+    color: #FD6E0A;;
+
+}
